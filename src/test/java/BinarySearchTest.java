@@ -18,7 +18,10 @@ class BinarySearchTest {
         int input[] = {2, 3, 5, 8, 9};
 
         // when-then
-        var result = BinarySearch.search(input, searchedValue);
-        assertEquals(expectedPosition, result);
+        var iterativeResult = BinarySearch.iterativeSearch(input, searchedValue);
+        var recursiveSearch = BinarySearch.recursiveSearch(input, searchedValue);
+
+        assertEquals(expectedPosition, iterativeResult);
+        assertEquals(expectedPosition, recursiveSearch);
     }
 }
