@@ -1,6 +1,6 @@
 # ALGORITHMS
 
-The aim of this repository is to provide an insight about alogirhtms in general.
+The aim of this repository is to provide an insight about algorithms in general.<br/>
 You will find here implementation of many popular problems.
 <br/><br/>
 
