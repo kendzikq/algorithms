@@ -6,9 +6,10 @@ You will find here implementation of many popular problems.
 
 ##### Algorithms to be covered
 - [X] Binary search
-- [ ] Selection Sort
+- [X] Selection sort
 <br/>
 
-##### Comlexity
+##### Time Comlexity
 
 1. Binary search - O(log n)
+2. Selection sort - O(n^2)
