@@ -6,6 +6,7 @@ You will find here implementation of many popular problems.
 
 ##### Algorithms to be covered
 - [X] Binary search
+- [X] Stack
 - [X] Selection sort
 - [ ] Quick sort
 - [ ] Breadth-first search
