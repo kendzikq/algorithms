@@ -6,14 +6,17 @@ You will find here implementation of many popular problems.
 
 ##### Algorithms to be covered
 - [X] Binary search
-- [X] Stack
 - [X] Selection sort
 - [ ] Quick sort
 - [ ] Breadth-first search
 - [ ] Dijkstra's algorithm
 <br/>
 
-##### Time Comlexity
+##### Data structures to be covered
+- [X] Stack
+<br/>
+
+##### Time Complexity
 
 1. Binary search - O(log n)
 2. Selection sort - O(n^2)
