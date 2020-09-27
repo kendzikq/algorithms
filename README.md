@@ -21,3 +21,4 @@ You will find here implementation of many popular problems.
 
 1. Binary search - O(log n)
 2. Selection sort - O(n^2)
+3. Quick sort - O(n log n)
