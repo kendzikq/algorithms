@@ -7,7 +7,8 @@ You will find here implementation of many popular problems.
 ##### Algorithms to be covered
 - [X] Binary search
 - [X] Selection sort
-- [ ] Quick sort
+- [X] Quick sort: Lomuto partition scheme
+- [ ] Quick sort: Hoare partition scheme
 - [ ] Breadth-first search
 - [ ] Dijkstra's algorithm
 <br/>
