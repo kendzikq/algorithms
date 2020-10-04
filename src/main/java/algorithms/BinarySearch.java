@@ -1,3 +1,5 @@
+package algorithms;
+
 public class BinarySearch {
     public static Integer iterativeSearch(int[] sortedNums, int searchedNum) {
 

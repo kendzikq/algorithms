@@ -1,7 +1,9 @@
+package data_structures;
+
 public class Stack {
 
     private int lastElementIdx;
-    private int[] stack;
+    private final int[] stack;
 
     public Stack() {
         this(20);

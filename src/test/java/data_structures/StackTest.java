@@ -1,3 +1,5 @@
+package data_structures;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -8,7 +10,7 @@ class StackTest {
     @Test
     void shouldWorkAsLIFO() {
         // given
-        Stack stack = new Stack();
+        var stack = new Stack();
         stack.push(3);
         stack.push(5);
         stack.push(0);
@@ -35,7 +37,7 @@ class StackTest {
     @Test
     void shouldRaiseStackOverFlowException() {
         // given
-        Stack stack = new Stack(2);
+        var stack = new Stack(2);
 
         // when - then
         stack.push(0);
@@ -48,13 +50,13 @@ class StackTest {
     @Test
     void shouldRaiseStackIsEmptyException() {
         // given
-        Stack stack = new Stack(2);
+        var stack = new Stack(2);
 
         // when - then
         stack.push(0);
         stack.pop();
         assertThrows(RuntimeException.class,
-                () -> stack.pop(),
+                stack::pop,
                 "stack is empty");
     }
 }

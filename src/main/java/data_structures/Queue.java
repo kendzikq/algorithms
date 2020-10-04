@@ -1,3 +1,5 @@
+package data_structures;
+
 public class Queue {
 
     private final int[] queue;

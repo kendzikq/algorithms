@@ -1,3 +1,5 @@
+package algorithms;
+
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -15,7 +17,7 @@ class BinarySearchTest {
     })
     void testSomething(int searchedValue, int expectedPosition) {
         // given
-        int input[] = {2, 3, 5, 8, 9};
+        int[] input = {2, 3, 5, 8, 9};
 
         // when-then
         var iterativeResult = BinarySearch.iterativeSearch(input, searchedValue);

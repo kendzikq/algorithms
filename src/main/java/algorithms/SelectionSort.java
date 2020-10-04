@@ -1,3 +1,5 @@
+package algorithms;
+
 public class SelectionSort {
 
     public static int[] sort(int[] ints) {

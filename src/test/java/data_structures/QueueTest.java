@@ -1,3 +1,5 @@
+package data_structures;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -8,10 +10,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class QueueTest {
 
     @Test
-    void shouldNotThrowOverflowException() {
+    void shouldWorkAsFIFO() {
 
         // given
-        Queue queue = new Queue(5);
+        var queue = new Queue(5);
 
         // when
         queue.queue(0);
@@ -32,6 +34,7 @@ class QueueTest {
         assertEquals(3, queue.peek());
 
         //should not throw overflow exception
+        // the index is starting from the start (0)
         // when
         queue.queue(5);
         queue.dequeue();
@@ -45,7 +48,7 @@ class QueueTest {
     void shouldThrowOverFlowException() {
 
         // given
-        Queue queue = new Queue(2);
+        var queue = new Queue(2);
 
         // when
         queue.queue(2);
@@ -61,7 +64,7 @@ class QueueTest {
     void shouldThrowQueueUnderflowException() {
 
         // given
-        Queue queue = new Queue(2);
+        var queue = new Queue(2);
 
         // when
         queue.queue(2);
@@ -79,7 +82,7 @@ class QueueTest {
     void isEmptyShouldReflectRightStates() {
 
         // given
-        Queue queue = new Queue(3);
+        var queue = new Queue(3);
 
         // when
         queue.queue(0);

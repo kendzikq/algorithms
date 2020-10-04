@@ -1,3 +1,5 @@
+package algorithms;
+
 public class QuickSortLomuto {
 
     public static int[] sort(int[] ints) {
