@@ -15,6 +15,7 @@ You will find here implementation of many popular problems.
 
 ##### Data structures to be covered
 - [X] Stack
+- [X] Queue
 <br/>
 
 ##### Time Complexity
