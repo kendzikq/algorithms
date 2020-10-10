@@ -8,7 +8,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
-
+/**
+ * Basic example for people network
+ */
 public class BreadthFirstSearch {
 
     private final int v; // number of vertices (nodes)
