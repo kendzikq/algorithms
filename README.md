@@ -9,7 +9,7 @@ You will find here implementation of many popular problems.
 - [X] Selection sort
 - [X] Quick sort: Lomuto partition scheme
 - [ ] Quick sort: Hoare partition scheme
-- [ ] Breadth-first search
+- [X] Breadth-first search
 - [ ] Dijkstra's algorithm
 <br/>
 
@@ -23,3 +23,4 @@ You will find here implementation of many popular problems.
 1. Binary search - O(log n)
 2. Selection sort - O(n^2)
 3. Quick sort - O(n log n)
+4. Breadth-first search - O(V + E)
