@@ -30,7 +30,7 @@ class BreadthFirstSearchTest {
         initGraph();
 
         // when
-        var result = bts.BTS(john);
+        var result = bts.bfs(john);
 
         // then
         List<Person> expectedResult = List.of(john, ann, peter, monica, rachel, phoebe, richard);
@@ -44,7 +44,7 @@ class BreadthFirstSearchTest {
         initGraph();
 
         // when
-        var result = bts.BTS(phoebe);
+        var result = bts.bfs(phoebe);
 
         // then
         List<Person> expectedResult = List.of(phoebe, ann, monica, rachel, john, peter, richard);

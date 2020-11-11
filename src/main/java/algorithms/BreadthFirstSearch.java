@@ -32,7 +32,7 @@ public class BreadthFirstSearch {
     }
 
 
-    public List<Person> BTS(Person start) {
+    public List<Person> bfs(Person start) {
 
         List<Person> result = new LinkedList<>();
         LinkedList<Person> queue = new LinkedList<>();
