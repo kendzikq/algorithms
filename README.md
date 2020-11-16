@@ -10,7 +10,7 @@ You will find here implementation of many popular problems.
 - [X] Quick sort: Lomuto partition scheme
 - [ ] Quick sort: Hoare partition scheme
 - [X] Breadth-first search
-- [ ] Dijkstra's algorithm
+- [X] Dijkstra's algorithm
 <br/>
 
 ##### Data structures to be covered
