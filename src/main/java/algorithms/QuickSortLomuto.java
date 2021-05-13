@@ -16,8 +16,8 @@ public class QuickSortLomuto {
     }
 
     private static int partition(int[] ints, int low, int high) {
-        int pivot = ints[high];
         int pivotIdx = high;
+        int pivot = ints[pivotIdx];
         int i = low;
 
         for (int j = low; j < high; j++) {

@@ -8,10 +8,10 @@ import java.util.Set;
 
 public class Dijkstra {
 
-    private Map<Node, Map<Node, Long>> adjacencyList;
-    private Map<Node, Node> parents = new HashMap<>();
-    private Map<Node, Long> costs = new HashMap<>();
-    private Set<Node> visited = new HashSet<>();
+    private final Map<Node, Map<Node, Long>> adjacencyList;
+    private final Map<Node, Node> parents = new HashMap<>();
+    private final Map<Node, Long> costs = new HashMap<>();
+    private final Set<Node> visited = new HashSet<>();
 
 
     public Dijkstra(Map<Node, Map<Node, Long>> adjacencyList) {
@@ -59,8 +59,8 @@ public class Dijkstra {
     }
 
     static class ResponseDto {
-        private Map<Node, Node> parents;
-        private Map<Node, Long> costs;
+        private final Map<Node, Node> parents;
+        private final Map<Node, Long> costs;
 
         public ResponseDto(Map<Node, Node> parents, Map<Node, Long> costs) {
             this.costs = costs;
@@ -78,8 +78,8 @@ public class Dijkstra {
 
 
     static class Node {
-        private long id;
-        private String name;
+        private final long id;
+        private final String name;
 
         public Node(long id, String name) {
             this.id = id;

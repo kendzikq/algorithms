@@ -1,6 +1,8 @@
-package data_structures;
+package datastructures;
 
 public class Stack {
+
+    private static final int EMPTY_STACK_IDX = -1;
 
     private int lastElementIdx;
     private final int[] stack;
@@ -11,7 +13,7 @@ public class Stack {
 
     public Stack(int stackCapacity) {
         stack = new int[stackCapacity];
-        lastElementIdx = -1; // means stack is empty
+        lastElementIdx = EMPTY_STACK_IDX;
     }
 
 
@@ -23,7 +25,7 @@ public class Stack {
     }
 
     public int pop() {
-        if (lastElementIdx <= -1) {
+        if (lastElementIdx <= EMPTY_STACK_IDX) {
             throw new RuntimeException("stack is empty");
         }
         return stack[lastElementIdx--];
